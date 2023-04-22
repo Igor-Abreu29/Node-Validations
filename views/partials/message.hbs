@@ -1,0 +1,11 @@
+{{#if successMessage}}
+    <div class="alert alert-success" role="alert">
+        Cadastrado!
+    </div>
+{{/if}}
+
+{{#each error}}
+    <div class="alert alert-danger" role="alert">
+        {{message}}
+    </div>
+{{/each}}
